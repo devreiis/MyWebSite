@@ -1,0 +1,11 @@
+@media (max-width:768px) {
+    
+}
+
+
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1671202286 svg {
+        width: calc(131% + 1.3px);
+        height: 263px;
+    }
+}

@@ -1,0 +1,232 @@
+header {
+    background-color: white;
+    padding: 28px;
+    border-bottom: 1px solid rgb(200,200,200);
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+.center {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 60px 0 0;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    color: #16587b;
+
+}
+.menu-mobile {
+    display: none;
+}
+.navigation-desktop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.navigation-desktop ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    
+}
+.navigation-desktop ul li a {
+    text-decoration: none;
+    color: #16587b;
+    transition: all 0.5s;
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+}
+.navigation-desktop ul li a:hover {
+    color: #007bff;
+}
+.button-header {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #16587b;
+    color: white;
+    border-radius: 7px ;
+    font-size: 1.2rem;
+    transition: 0.5s;
+   
+}
+.button-header:hover {
+    background-color: #007bff;
+}
+.sobre-mim {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    color: rgb(22, 88, 123);
+    align-items: center;
+    
+}
+.sobre-mim-container {
+    justify-content: center;
+}
+.content-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.diferenciais-container {
+    width: 100%;
+    height: 400px;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-assunt {
+    display: flex;
+    flex: wrap;
+    width: 100%;
+    height: 500px;
+    color: #16587b;
+    flex-direction: row;
+    /* border: 3px solid blue; */
+    align-items: center;
+    justify-content: space-evenly;
+
+}   
+.assunt {
+    border: 1px solid #fff;
+    background-color: #ffffff;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+
+}
+.assunt p {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 0 25px;
+}
+.descricao-sobre-empresa {
+    /* border: 3px solid rgb(0, 0, 0); */
+    background-color: #fff ;
+    width: 100%;
+    height: 300px;
+}
+
+.sobre-empresa {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo-sobre-empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+.titulo-sobre-empresa h1 {
+    text-transform: uppercase;
+    color: #16587b;
+}
+.titulo-sobre-empresa p {
+    margin-top: 10px;
+}
+
+.sobre-empresa-container {
+    width: 100%;
+    height: 300px;
+}
+.assunt-sobre-empresa {
+    display: flex;
+    height: 200px;
+}
+.assunt-sobre-empresa1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 0 15px 0 30px;
+}
+.assunt-sobre-empresa2 {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 0px 30px 0px 15px
+}
+.cards-container {
+    display: flex;
+}
+.sub-cards-container {
+    width: 100%;
+    height: 150px;
+    padding: 20px 0;
+    background-color: #cfe2f5;
+    font-size: 1.4rem;
+    color:#16587b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.card {
+    font-weight: bold;
+}
+.card p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.marca-container {
+    width: 100%;
+    height: 400px;
+    
+}
+.marca {
+    display: flex;
+}
+.marca .Logo-Marca {
+    width: 500px;
+    height: 500px;
+}
+.marca-text {
+    display: flex;
+}
+
+
+
+
+/*  FOOTER */
+
+
+
+
